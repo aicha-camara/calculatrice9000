@@ -54,3 +54,11 @@ def afficher_historique():
 histo = input("\nSaisir 'oui' pour voir l'historique : ")
 if histo == "oui":
     afficher_historique()
+
+def effacer_historique():
+    historique.clear()
+    print("L'historique a été effacé.")
+
+effacer = input("\nSaisir 'oui' pour effacer l'historique : ")
+if effacer == "oui":
+    effacer_historique()
